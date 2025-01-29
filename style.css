@@ -34,7 +34,7 @@ img{
 }
 .uli{
     color: #8B8E99;
-    display: flex;
+    display: none;
     list-style: none;
     gap:27px
 }
@@ -153,14 +153,52 @@ img{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 1005px;
+    width: 500px;
     height: 450px;
     color:black;
     margin: 0 auto;
     border-radius:2px solid blue;
+    gap: 20px;
+    flex-direction: column;
+}
+.card{
+    width: 355px;
+    height: 450px;
+    cursor: pointer;
+    box-shadow: 0 0 #444;
+}
+card-img{
+    width:250;
+    height: 280px;
+    border:2px solid red;
+    margin: 0 auto;
+    background:#8B8E99;
+    text-align: center;
 }
 
 .card-txt{
     color:black;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+.card-txt img{
+    width: 80px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+.narx{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 20px;
+}
+.brn{
+    padding: 10px 30px;
+    background:#3858D6;
+    border-radius:10px;
+    border:1px solid #3858D6;
+    color:white;
 }
